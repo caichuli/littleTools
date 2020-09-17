@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/first_menu"
+        android:icon="@drawable/addicon"
+        android:title="@string/add_icon"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/second_menu"
+        android:icon="@drawable/icon_play"
+        android:title="@string/add_icon"
+        app:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/third_menu"
+        android:icon="@drawable/icon_play"
+        android:title="@string/add_icon"
+        app:showAsAction="ifRoom|withText"
+        />
+    <item
+        android:id="@+id/fourth_menu"
+        android:icon="@drawable/icon_play"
+        android:title="@string/add_icon"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/fifth_menu"
+        android:icon="@drawable/icon_play"
+        android:title="@string/add_icon"
+        app:showAsAction="ifRoom|withText"
+        />
+</menu>
