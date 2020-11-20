@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1061880789/AndroidDemos.iml" filepath="$PROJECT_DIR$/.idea/modules/-1061880789/AndroidDemos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-643015202/AndroidDemos.TestModel1.iml" filepath="$PROJECT_DIR$/.idea/modules/-643015202/AndroidDemos.TestModel1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-643015201/AndroidDemos.TestModel2.iml" filepath="$PROJECT_DIR$/.idea/modules/-643015201/AndroidDemos.TestModel2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2113735127/AndroidDemos.intentmodel.iml" filepath="$PROJECT_DIR$/.idea/modules/-2113735127/AndroidDemos.intentmodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidDemos.littletools.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidDemos.littletools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1108085090/AndroidDemos.musicplayer.iml" filepath="$PROJECT_DIR$/.idea/modules/1108085090/AndroidDemos.musicplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1891381952/AndroidDemos.myapplication.iml" filepath="$PROJECT_DIR$/.idea/modules/-1891381952/AndroidDemos.myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1063788696/AndroidDemos.mycamerademo.iml" filepath="$PROJECT_DIR$/.idea/modules/1063788696/AndroidDemos.mycamerademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2129088492/AndroidDemos.mytorch.iml" filepath="$PROJECT_DIR$/.idea/modules/2129088492/AndroidDemos.mytorch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-516727378/AndroidDemos.open.iml" filepath="$PROJECT_DIR$/.idea/modules/-516727378/AndroidDemos.open.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-578563057/AndroidDemos.oschina.iml" filepath="$PROJECT_DIR$/.idea/modules/-578563057/AndroidDemos.oschina.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/842871582/AndroidDemos.recordbook.iml" filepath="$PROJECT_DIR$/.idea/modules/842871582/AndroidDemos.recordbook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/223018680/AndroidDemos.sharedapp.iml" filepath="$PROJECT_DIR$/.idea/modules/223018680/AndroidDemos.sharedapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1358705337/AndroidDemos.sqlitemodel.iml" filepath="$PROJECT_DIR$/.idea/modules/1358705337/AndroidDemos.sqlitemodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1720347232/AndroidDemos.testmodel3.iml" filepath="$PROJECT_DIR$/.idea/modules/-1720347232/AndroidDemos.testmodel3.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,14 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     tools:context=".fragment.PathMeasureFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <!--<com.cjq.littletools.customview.MeasurePath
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />-->
+    <com.cjq.littletools.customview.CircleSeekBar
+        android:id="@+id/progress_circle"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"/>
+        <!--app:progressColor="@android:color/holo_green_dark"
+        app:progressWidth="30dp"
+        app:seekBarColor="@android:color/holo_blue_bright"
+        app:arrowColor="@android:color/holo_orange_dark"
+        app:arrowBorderColor="@android:color/black"
+        app:progressTextSize="30dp"/>-->
+    <com.cjq.littletools.customview.ShapedImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/headimage"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

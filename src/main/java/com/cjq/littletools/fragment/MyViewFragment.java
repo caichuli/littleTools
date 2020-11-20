@@ -148,9 +148,7 @@ public class MyViewFragment extends Fragment {
                 int value = (int) animation.getAnimatedValue();
                 mCircleDiagram.layout(value,value,mCircleDiagram.getWidth()+value,mCircleDiagram.getHeight()+value);
                 Log.d("----TAG----",value+"");
-                if(value>=400){
-                    doAnimation();
-                }
+
             }
         });
         /*valueAnimator.start();*/
@@ -245,11 +243,11 @@ public class MyViewFragment extends Fragment {
 
         //PropertyValuesHolder的使用
         //ofPropertyValues可以传入多个PropertyValuesHolder，同时执行这些动画
-        TextView pro_tv = view.findViewById(R.id.pro_text);/*
+        TextView pro_tv = view.findViewById(R.id.pro_text);
         PropertyValuesHolder holder = PropertyValuesHolder.ofFloat("translationY",0,400);
         PropertyValuesHolder holder2 = PropertyValuesHolder.ofFloat("translationX",0,200);
         ObjectAnimator propertyAnimator = ObjectAnimator.ofPropertyValuesHolder(pro_tv,holder,holder2);
-        propertyAnimator.start();*/
+        propertyAnimator.start();
 
 
 
@@ -324,7 +322,7 @@ public class MyViewFragment extends Fragment {
 
 
 
-        
+
 
         /*WindowManager wm = (WindowManager) getActivity().getSystemService(getActivity().WINDOW_SERVICE);
         View v2 = inflater.inflate(R.layout.fragment_time,null,false)

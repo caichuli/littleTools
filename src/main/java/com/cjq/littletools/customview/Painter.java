@@ -97,13 +97,14 @@ public class Painter extends View {
 
         //画布的保存和恢复
         //对画布的裁剪，旋转，扭曲等是不可逆的，这里给出保存画布状态的方法。
-       /* canvas.drawColor(Color.GRAY);
+        canvas.drawColor(Color.GRAY);
         canvas.save();
+        //裁剪画布
         canvas.clipRect(new Rect(100,100,200,200), Region.Op.DIFFERENCE);
         canvas.drawColor(Color.BLUE);
 
         canvas.restore();
-        canvas.drawColor(Color.WHITE);*/
+        canvas.drawColor(Color.WHITE);
 
        //
 

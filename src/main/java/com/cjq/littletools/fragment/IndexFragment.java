@@ -59,6 +59,8 @@ public class IndexFragment extends Fragment {
         mToolList.add(viewTool);
         SingleTool layoutAnimatorTool = new SingleTool("布局动画",R.drawable.icon_view,packageStr+".LayoutAnimatorFragment");
         mToolList.add(layoutAnimatorTool);
+        SingleTool pathMeasure = new SingleTool("路径动画",R.drawable.icon_view,packageStr+".PathMeasureFragment");
+        mToolList.add(pathMeasure);
         mContext = getActivity();
 
     }
@@ -80,6 +82,7 @@ public class IndexFragment extends Fragment {
                     Class<?> fragment = Class.forName(mToolList.get(position).getFragment());
                     if(fragment != null){
                         fm.beginTransaction()
+                                .setCustomAnimations(R.anim.anim_clock,R.anim.anim_trans)
                                 .add(R.id.fragment_container, (Fragment) fragment.newInstance())
                                 .addToBackStack(null)
                                 .hide(IndexFragment.this)

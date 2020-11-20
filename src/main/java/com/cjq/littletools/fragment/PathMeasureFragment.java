@@ -9,6 +9,10 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.cjq.littletools.R;
+import com.cjq.littletools.customview.CircleSeekBar;
+
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -25,6 +29,7 @@ public class PathMeasureFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+    float progress = 0;
 
     public PathMeasureFragment() {
         // Required empty public constructor
@@ -62,6 +67,22 @@ public class PathMeasureFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_path_measure, container, false);
+        final CircleSeekBar circleSeekBar = view.findViewById(R.id.progress_circle);
+        /*Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                circleSeekBar.setProgress(progress);
+                if(progress<100){
+                    progress = progress+0.5f;
+                }
+                else{
+                    progress = 0;
+                }
+                circleSeekBar.setProgress(progress);
+            }
+        },0,40);*/
+        return view;
 
     }
 }
